@@ -6,7 +6,7 @@ struct ContentView: View {
     var body: some View {
         HStack {
             CardView(isFacedUp: true)
-            CardView()
+            CardView(isFacedUp: true)
             CardView()
             CardView()
         }
